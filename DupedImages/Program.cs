@@ -54,11 +54,11 @@ namespace DupedImages
 
 
                     double RGB_diff = 0;
-                    bool flagged = true;
+                   
 
 
 
-                    for (int k = 0; k < 3 && flagged; k++)
+                    for (int k = 0; k < 3; k++)
                     {
                         for (int l = 0; l < 256; l++)
                         {
